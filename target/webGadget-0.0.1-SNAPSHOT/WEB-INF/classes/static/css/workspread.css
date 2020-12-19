@@ -1,0 +1,132 @@
+.col-lg-custom{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.image-container{
+    padding-left:6rem;
+    padding-right:6rem;
+    margin: auto;
+}
+.img-style{
+    width: 100%;
+    height: 35rem;
+}
+.a-style{
+    color:white;
+    text-decoration: underline;
+    font-size:1rem;
+}
+.a-style:hover{
+    color:greenyellow;
+    text-decoration: underline;
+    font-size:1rem;
+}
+.p-style{
+    background-color: purple;
+    border-radius: 25px;
+    color: white;
+}
+
+body {
+    background-image: url('../Images/workspread.jpg');
+}
+.header h1 {
+    color: #fff !important;
+    margin: 40px 0 60px 0;
+    font-weight: 300;
+}
+.workspread-content {
+    padding: 0 100px;
+    padding-bottom: 80px !important;
+}
+.workspread-content p{
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff!important;
+}
+.row{
+    padding-bottom:70px;
+}
+.our-team-main
+{
+    width:100%;
+    height:auto;
+    border-bottom:5px #323233 solid;
+    background:#fff;
+    text-align:center;
+    border-radius:10px;
+    overflow:hidden;
+    position:relative;
+    transition:0.5s;
+    margin-bottom:28px;
+    min-height: 13rem;
+}
+
+
+.our-team-main img
+{
+    border-radius:50%;
+    margin-bottom:20px;
+    width: 90px;
+}
+
+.our-team-main h3
+{
+    font-size:20px;
+    font-weight:700;
+}
+
+.our-team-main p
+{
+    margin-bottom:0;
+}
+
+.team-back
+{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    padding:5px 15px 0 15px;
+    text-align:left;
+    background:#fff;
+
+}
+
+.team-front
+{
+    width:100%;
+    height:auto;
+    position:relative;
+    z-index:10;
+    background:#fff;
+    padding:15px;
+    bottom:0px;
+    transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front
+{
+    bottom:-200px;
+    transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+    border-color:#777;
+    transition:0.5s;
+}
+p{
+    padding: 20px;
+    text-align: center;
+}
+#footer p {
+    margin-top: 0;
+    margin-bottom: 0!important;
+    padding: 0!important;
+}

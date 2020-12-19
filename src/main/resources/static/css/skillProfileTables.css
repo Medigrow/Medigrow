@@ -1,0 +1,89 @@
+.table-container{
+    display: inline-flex;
+    padding: 0 0 0 40px;
+    margin-right: 50px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+table.agenda {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    min-width: 30%;
+    max-width:30%;
+}
+
+table.agenda td,
+table.agenda th {
+    border: 1px solid #fff;
+    padding: 5px;
+    min-width: 4rem;
+    text-align: center;
+
+}
+
+table.agenda td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#D4E4F7;
+    color: black;
+}
+
+th {
+    background: #6394ff;
+    color: white;
+}
+/*---------Grid section css------------*/
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.wrap:hover {
+    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+    color: white;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: #313131;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+
+.wrap-update{
+    display: flex;
+    background:white;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    color: black;
+    min-height: 10rem;
+    max-height:10rem;
+}
+.grid-tile-custom{
+    max-width: 80%;
+    min-width: 80%;
+    padding-left: 3rem;
+}
+
+
+
+
+

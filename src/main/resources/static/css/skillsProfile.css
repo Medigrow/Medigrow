@@ -1,0 +1,18 @@
+
+h2{
+    text-align:center;
+    padding: 20px;
+}
+body {
+    min-height: 100vh;
+    background-image: url(../Images/background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.img-style{
+    max-height:6rem;
+    min-width:7rem;
+    min-height:6rem;
+    border-style:outset;
+}

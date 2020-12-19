@@ -1,0 +1,353 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/***********Navigation Bar***************/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-logo img{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #9400D3!important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #000!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/***********Carousel Slider***************/
+.carousel-item {
+  height: 90vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-height: 450px!important;
+}
+/***********About***************/
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #000;
+}
+#about btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content{
+    padding-top: 20px;
+    text-align: justify!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #9400D3!important;
+    border-color: #9400D3!important;
+}
+.about-img img {
+    vertical-align: middle;
+    border-style: none;
+    height: 400px;
+    width: 600px;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+/***********Our Services***************/
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../Images/Accenture.png');
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#services h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services{
+    padding-top: 40px;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services .col-md-3:hover{
+    background: #9400D3;
+    cursor: pointer;
+    transition: 0.7s;
+}
+/***********Our Leadership***************/
+#leadership{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+h1{
+    text-align: center;
+    color: #000!important;
+    padding-bottom: 10px;
+}
+h1::after{
+    content: '';
+    background: #9400D3;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic{
+    margin-top: 20px;
+}
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img{
+  width: 196px;
+  height: 200px;
+}
+.profile-pic .img-box img:hover{
+  cursor: pointer;
+}
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #9400D3 !important;
+}
+.profile-pic h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#leadership .fa{
+    height: 25px;
+    width: 25px;
+    color: #9400D3 !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+.img-box ul{
+   padding: 15px 0;
+   position: absolute;
+   z-index: 2;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   opacity: 0;
+}
+.img-box ul li{
+    padding: 5px;
+    display: inline-block;
+}
+.img-box:hover ul{
+    opacity: 1;
+}
+.img-box ul, .img-box ul li{
+    transition: 0.5s;
+}
+/***********Monthly Releases***************/
+#releases{
+    padding: 40px 0;
+    background: #efefef;
+}
+.single-release{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.single-release:hover{
+    box-shadow: 0 2px 20px #333;
+}
+.release-head{
+    background-color: #9400D3;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.release-head h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.release-head p{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+#releases span{
+    font-size: 15px;
+}
+.release-content{
+    display: inline;
+    float: left;
+    padding: 0 15px;
+    width: 100%;
+}
+.release-content ul li{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+ul li:last-child{
+    border: none;
+}
+.fa-check-circle{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.release-button{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+.more-btn{
+    background-color: #9400D3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none!important;
+    color: #fff!important;
+}
+/***********Testimonials***************/
+#testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonials .row
+{
+    margin-top: 30px;
+}
+.col-md-4{
+    margin: 40px auto;
+}
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.client{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile img{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid #fff;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #9400D3;
+}
+#testimonials span{
+    font-size: 12px;
+    color: #333;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+    content: '\93';
+    font-size: 50px;
+    color: #9400D3;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after{
+    content: '\94';
+    font-size: 50px;
+    color: #9400D3;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/***********Footer***************/
+#footer{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+    max-height: 50px;
+}
+
+

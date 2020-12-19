@@ -1,0 +1,8 @@
+bean\LoginDAO.class
+com\webGadget\webGadget\GadgetController.class
+com\webGadget\webGadget\DBConnector.class
+bean\readWriteExcel.class
+bean\ConnectionProvider.class
+bean\LoginBean.class
+com\webGadget\webGadget\WebGadgetApplication.class
+bean\Provider.class

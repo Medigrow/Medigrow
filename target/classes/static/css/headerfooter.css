@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/***********Navigation Bar***************/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-logo img{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #9400D3!important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #000!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/***********Footer***************/
+#footer{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+    max-height: 50px;
+}
+
+

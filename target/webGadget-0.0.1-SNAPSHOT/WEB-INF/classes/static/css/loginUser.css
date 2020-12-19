@@ -1,0 +1,138 @@
+body {
+ background-image: url('../Images/healthcareServices.jpg');
+  background-size: 1270px 470px;
+  background-repeat: no-repeat;
+}
+
+.register-right{
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+.register .register-form{
+    padding: 5%;
+    margin-top: 8%;
+    margin-left:-2%
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 400;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: right;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    background-color: #0062cc;
+}
+
+.btnSubmit:hover{
+color: black;
+background-color: white;
+}
+
+.ForgetPwd{
+    color: White;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer {
+    bottom:0;
+    width: 100%;
+    margin-top: 50px;
+    height: 130px;
+    font-weight: 600;
+    color: #000000;
+}
+
+
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #87ceeb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.fa {
+
+  font-size: 5px;
+    width: 30px;
+    height: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa-facebook {
+    padding: 5px;
+  background: #000000;
+  color: white;
+}
+
+.fa-twitter{
+    padding: 5px;
+  background: #000000;
+  color: white;
+}
+
+.fa-google{
+    padding: 5px;
+  background: #000000;
+  color: white;
+}
+
+
